@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/home/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/home/produtos.css">
+    <link rel="stylesheet" href="./assets/css/home/rodape.css">
+    <title>Bem-vindo a PinkGeek</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="cabecalho__principal">
+            <div class="cabecalho__principal__container">
+                <img class="cabecalho__principal__home" src="./assets/img/Cabecalho/Logo.png" alt="Logo PinkGeek" data-home>
+                <input class="cabecalho__pesquisa" type="search" placeholder="O que deseja encontrar?" id="barra-pesquisa">
+            </div>
+            <input class="cabecalho__login botao__transparente--light botao__transparente--bold" type="submit" value="Login" data-login>
+        </section>
+
+        <section class="cabecalho__banner">
+            <div class="cabecalho__banner__container">
+                <h2 class="cabecalho__banner__texto">AQUI VOCÊ ENCONTRA</h2>
+                <p class="cabecalho__banner__subtexto">Os melhores produtos do mercado com qualidade PinkGeek </p>
+                <input class="cabecalho__botao__console botao__azul--light botao__azul--bold" type="submit" value="Ver Consoles" data-ver-consoles>
+            </div>
+        </section>
+    </header>
+
+    <main class="produtos">
+        <section class="produtos__starwars">
+            <div class="produtos__container">
+                <div class="produtos__container_cabecalho">
+                    <h2>Bonecos</h2>
+                    <div class="produtos__link__container">
+                        <a class="produtos__link links__azul" href="#">Ver tudo <img class="links__azul" src="./assets/img/arrow.svg"></a>
+                    </div>
+                </div>
+
+                <div class="produtos__conteudo">
+                    <div class="produtos__conteudo__container" data-lista-starwars>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="produtos__consoles">
+            <div class="produtos__container">
+                <div class="produtos__container_cabecalho">
+                    <h2>Diversos</h2>
+                    <div class="produtos__link__container">
+                        <a class="produtos__link links__azul" href="#">Ver tudo <img class="links__azul" src="./assets/img/arrow.svg"></a>
+                    </div>
+                </div>
+
+                <div class="produtos__conteudo">
+                    <div class="produtos__conteudo__container" data-lista-consoles>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="produtos__diversos">
+            <div class="produtos__container">
+                <div class="produtos__container_cabecalho">
+                    <h2>Camisetas</h2>
+                    <div class="produtos__link__container">
+                        <a class="produtos__link links__azul" href="#">Ver tudo <img class="links__azul" src="./assets/img/arrow.svg"></a>
+                    </div>
+                </div>
+
+                <div class="produtos__conteudo">
+                    <div class="produtos__conteudo__container" data-lista-diversos>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <section class="secao__contato">
+            <div class="secao__contato__container">
+                <img src="./assets/img/Cabecalho/Logo.png" alt="Logo do site PinkGeek">
+                <nav>
+                    <ul class="secao__contato__sobre">
+                        <li><a class="contato__sobre__texto" href="#">Quem somos nós</a></li>
+                        <li><a class="contato__sobre__texto" href="#">Política de privacidade</a></li>
+                        <li><a class="contato__sobre__texto" href="#">Programa fidelidade</a></li>
+                        <li><a class="contato__sobre__texto" href="#">Nossas lojas</a></li>
+                        <li><a class="contato__sobre__texto" href="#">Quero ser franqueado</a></li>
+                        <li><a class="contato__sobre__texto" href="#">Anuncie aqui</a></li>
+                    </ul>
+                </nav>
+                <form class="secao__contato__formulario" data-formulario-footer>
+                    <label class="secao__contato__label" for="Nome">Fale Conosco</label>
+                    <input class="secao__contato__nome" type="text" placeholder="Nome">
+                    <textarea class="secao__contato__mensagem" placeholder="Escreva sua mensagem." id="textarea" cols="30" rows="10"></textarea>
+                    <input class="secao__contato__botao botao__azul--light botao__azul--bold" type="submit" value="Enviar mensagem">
+                </form>
+            </div>
+        </section>
+
+        <section class="secao__copyright">
+            <div class="secao__copyright__container">
+                <p class="secao__copyright__texto">Copyright © 2023 - Todos os Direitos Reservados<a class="github botao__azul--light" target="_blank" href="https://rosangelahenry.github.io">Rosangela Henry</a></p>
+            </div>
+        </section>
+    </footer>
+
+    <script type="module" src="./assets/js/home.js"></script>
+</body>
+</html>
